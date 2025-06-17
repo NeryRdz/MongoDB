@@ -1,9 +1,5 @@
-from pymongo import MongoClient
-from pymongo import ASCENDING,DESCENDING
+from pymongo import MongoClient         #Install pymongo in terminal
 from datetime import datetime
-
-# Requires the PyMongo package.
-# https://api.mongodb.com/python/current
 
 class ToDoList():
 
